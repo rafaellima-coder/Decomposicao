@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decomposicao.Dominio", "src\Decomposicao.Dominio\Decomposicao.Dominio.csproj", "{F7D210EE-3CB5-4782-AB09-3C7B94D2E8F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decomposicao.Dominio.Teste", "src\Decomposicao.Dominio.Teste\Decomposicao.Dominio.Teste.csproj", "{F62166FD-D8AD-474B-A51B-03AEA0241250}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelaDecompositor", "src\TelaDecompositor\TelaDecompositor.csproj", "{6CCC2B37-A0A2-4C9F-AC0C-B87CED7A600A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decomposicao.Ioc", "src\Composicao.Ioc\Decomposicao.Ioc.csproj", "{C96E5E4E-11B9-4001-BED9-FE295B766A6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora.Api", "src\Decomposicao.Api\Calculadora.Api.csproj", "{0B40BD54-114F-42C1-993F-2CD82236F3BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D210EE-3CB5-4782-AB09-3C7B94D2E8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D210EE-3CB5-4782-AB09-3C7B94D2E8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D210EE-3CB5-4782-AB09-3C7B94D2E8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D210EE-3CB5-4782-AB09-3C7B94D2E8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F62166FD-D8AD-474B-A51B-03AEA0241250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F62166FD-D8AD-474B-A51B-03AEA0241250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F62166FD-D8AD-474B-A51B-03AEA0241250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F62166FD-D8AD-474B-A51B-03AEA0241250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CCC2B37-A0A2-4C9F-AC0C-B87CED7A600A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CCC2B37-A0A2-4C9F-AC0C-B87CED7A600A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CCC2B37-A0A2-4C9F-AC0C-B87CED7A600A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CCC2B37-A0A2-4C9F-AC0C-B87CED7A600A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96E5E4E-11B9-4001-BED9-FE295B766A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96E5E4E-11B9-4001-BED9-FE295B766A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96E5E4E-11B9-4001-BED9-FE295B766A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96E5E4E-11B9-4001-BED9-FE295B766A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B40BD54-114F-42C1-993F-2CD82236F3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B40BD54-114F-42C1-993F-2CD82236F3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B40BD54-114F-42C1-993F-2CD82236F3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B40BD54-114F-42C1-993F-2CD82236F3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC37B871-F7F5-4F6A-A539-0108D0490DCE}
+	EndGlobalSection
+EndGlobal
